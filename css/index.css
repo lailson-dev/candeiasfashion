@@ -177,3 +177,51 @@ a {
 .product-title-price small {
 	font-size: 1em;
 }
+
+/* FOOTER PAGE */
+.footer {
+	display: flex;
+	flex-direction: column;
+	background: #F9F9F9;
+	margin-top: 50px;
+}
+
+.footer p {
+	text-align: center;
+	margin: 25px 0;
+}
+
+.footer-pages {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: center;
+}
+
+.footer-pages > div {
+	flex: 1;
+	margin: 20px 20px 10px 20px;
+}
+
+.institutional h5 ,
+.payment h5 ,
+.media-social h5 ,
+.newsletter h5 {
+	margin: 10px 0;
+}
+
+.media-social ul li::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background: var(--linkColor);
+	transition: width .3s;
+}
+
+.media-social ul li:hover::after {
+	width: 27%;
+}
+.media-social ul li:last-of-type:hover::after {
+	width: 21%;
+}
