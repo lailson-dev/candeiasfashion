@@ -104,7 +104,7 @@ a {
 	margin: 0 auto;
 }
 /* REGISTER AND LOGIN */
-.register {
+.login-register {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
