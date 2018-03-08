@@ -2,9 +2,12 @@
 namespace app\models;
 
 use app\models\Connection;
+use app\traits\PersistDb;
 
-abstract class Model
+abstract class Model 
 {
+	use PersistDb;
+	
 	protected $connection;
 
 	public function __construct	()
