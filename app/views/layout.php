@@ -9,55 +9,32 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,,800,900|Josefin+Sans:300,400,600,700" rel="stylesheet"> 
 	<!-- CSS STYLES -->
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/carrinho.css">
+	<link rel="stylesheet" type="text/css" href="css/detalhes.css">
+	<link rel="stylesheet" type="text/css" href="css/fitness.css">
+	<link rel="stylesheet" type="text/css" href="css/intima.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/registro.css">
 </head>
 <body>
 
 	<header class="header-nav">
 		<nav class="nav-menu">
 			<div class="nav-logo">
-				<a href="index.html">CandeiasFashion</a>
+				<a href="/">CandeiasFashion</a>
 			</div>
 			<ul class="nav-item">
-				<li><a href="intima.html">Moda Íntima</a></li>
-				<li><a href="fitness.html">Moda Fitness</a></li>
-				<li><a href="registro.html">Registrar-se</a></li>
-				<li><a href="login.html">Login</a></li>
+				<li><a href="/moda-intima">Moda Íntima</a></li>
+				<li><a href="/moda-fitness">Moda Fitness</a></li>
+				<li><a href="/cadastro">Registrar-se</a></li>
+				<li><a href="/login">Login</a></li>
 			</ul>
 		</nav>		
 	</header>
 
-	<section class="container banner"></section>
-
-	<section class="container product">
-		<h3>Destaques</h3>
-		<div class="product-list">
-			<div class="product-item">
-				<div class="product-image">				
-					<figure>
-						<a href="#"><img src="img/produtos/calça-jeans-clara-candeias-fashion-lailson-conceição.jpg" alt="Calça Jeans Clara - Candeias Fashion - Lailson Conceição" title="Calça Jeans Clara - Candeias Fashion"></a>
-						<figcaption><a href="#">Calça Jeans Clara</a></figcaption>
-					</figure>
-				</div>
-				<div class="product-title-price">
-					<h4>Calça Jeans Clara</h4>
-					<small><strong>R$:</strong> 79,99</small>
-				</div>
-			</div>
-
-			<div class="product-item">
-				<div class="product-image">				
-					<figure>
-						<a href="#"><img src="img/produtos/calça-jeans-clara-candeias-fashion-lailson-conceição.jpg" alt="Calça Jeans Clara - Candeias Fashion - Lailson Conceição" title="Calça Jeans Clara - Candeias Fashion"></a>
-						<figcaption><a href="#">Calça Jeans Clara</a></figcaption>
-					</figure>
-				</div>
-				<div class="product-title-price">
-					<h4>Calça Jeans Clara</h4>
-					<small><strong>R$:</strong> 79,99</small>
-				</div>
-			</div>	
-		</div>
-	</section>
+	<div class="wrapper">
+		<?php require $layout->load(); ?>		
+	</div>
 
 	<footer class="footer">
 		<div class="footer-pages">

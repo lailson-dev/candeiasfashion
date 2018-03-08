@@ -1,0 +1,38 @@
+.create-account {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+.login-register {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin-top: 50px;
+}
+
+.form {
+	margin-top: 15px;
+}
+
+.register-field-container {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;	
+}
+
+.register-field-container:last-of-type,
+.register-field-container:nth-child(5) {	
+	flex-direction: row;
+}
+
+.register-field-container:nth-child(5) label {
+	margin-right: 10px;
+}
+
+.create-account {
+	flex: 1;
+	margin: 10px;
+}

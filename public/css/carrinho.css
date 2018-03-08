@@ -1,0 +1,33 @@
+
+.cart {
+	margin-top: 50px;
+	box-shadow: 0 0 25px rgba(0,0,0,.05);
+}
+
+.cart > h4 {
+	margin-bottom: 15px;
+	padding: 10px 0 0 10px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #EA5F67;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #e9ecef;
+}

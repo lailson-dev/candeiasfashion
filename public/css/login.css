@@ -1,0 +1,36 @@
+
+.login {
+	margin-top: 50px;
+}
+
+.login-account {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	width: 100%;
+	margin: 10px;
+}
+
+.login-account h2 {	
+	font-size: 1.5em;
+}
+
+.form {
+	margin-top: 15px;
+	min-width: 42%;
+}
+
+.login-field-box {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;	
+}
+
+.login-field-box:last-of-type {	
+	flex-direction: row;
+}
+
+.login-field-box:last-of-type button {
+	margin-right: 10px;
+}
