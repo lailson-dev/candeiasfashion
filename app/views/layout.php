@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/intima.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 	<link rel="stylesheet" type="text/css" href="css/registro.css">
+	<link rel="stylesheet" type="text/css" href="css/perfil.css">
 </head>
 <body>
 

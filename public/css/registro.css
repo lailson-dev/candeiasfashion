@@ -4,6 +4,8 @@
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
+	flex: 1;
+	margin: 10px;
 }
 
 .login-register {
@@ -30,9 +32,4 @@
 
 .register-field-container:nth-child(5) label {
 	margin-right: 10px;
-}
-
-.create-account {
-	flex: 1;
-	margin: 10px;
 }

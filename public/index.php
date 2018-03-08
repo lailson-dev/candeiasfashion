@@ -10,6 +10,8 @@ $routes = [
 	'/' => 'controllers/indexController',
 	'/cadastro' => 'controllers/create_userController',
 	'/user_store' => 'controllers/user_storeController',
+	'/perfil' => 'controllers/user_editController',
+	'/user_update' => 'controllers/user_updateController',
 ];
 
 $uri = Uri::load();

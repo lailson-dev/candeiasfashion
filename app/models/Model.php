@@ -7,7 +7,7 @@ use app\traits\PersistDb;
 abstract class Model 
 {
 	use PersistDb;
-	
+
 	protected $connection;
 
 	public function __construct	()
@@ -26,9 +26,9 @@ abstract class Model
 
 	public function find($field, $value)
 	{
-		$sql = "SELECT * FROM {$this->table} WHERE {$field} = ?";
+		$sql = "SELECT * FROM {$this->table} WHERE {$field} = :{$field}";
 		$list = $this->connection->prepare($sql);
-		$list->bindValue(1, $value);
+		$list->bindValue($field, $value);
 		$list->execute();
 
 		return $list->fetch();

@@ -1,0 +1,42 @@
+.edit-profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.edit-profile h2 {
+	margin-top: 50px;
+}
+
+.edit-profile p {
+	margin: 0px 0 50px;
+}
+
+.edit-profile form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.edit-profile form hr {
+	margin: 25px 0;
+	width: 1px;
+	color: transparent;
+}
+
+.edit-control {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;	
+}
+
+.edit-control input {
+	text-transform: capitalize;
+}
+
+.edit-control input[name="state"] {
+	text-transform: uppercase !important;
+}
